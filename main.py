@@ -15,7 +15,6 @@ def main(services_i_care_about):
             # Log somthing vaguely useful if we do not know whats gone wrong
             status = 'unknown_exception_in_logger'
         finally:
-            #
             line_to_write = line_to_write + ' ' + service + ' ' + status
     return line_to_write
 
