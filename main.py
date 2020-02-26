@@ -21,4 +21,4 @@ def main(services_i_care_about):
 if __name__ == '__main__':
     # Put all the services you care about in this list
     services_i_care_about = []
-    print(main(services_i_care_about))
+    print main(services_i_care_about)
